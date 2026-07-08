@@ -22,11 +22,15 @@
 
 * <ins>Control and Monitoring Infrastructure:</ins> It contains 4G and Wi-Fi modules with support to be controlled remotely and to customize the scheduling of operation time and sends data to be monitored. 
 
-
 ---
 
-<h2 align="center"># 🔍 Audit Findings</h2>
+# 🦺 Safety Architecture 🦺
 
+* In accordance with ISO 13850, the autonomous forklift possesses multiple seriesed emergency stops that is easily identifiable and actuated through the use of a red mushroom style button that is mechanically latched and twist released around the chassis of the vehicle which ensures both redundancy, ease of access and operation. Apart from this, the machine will follow a category 1 stop in order for a safe shutdown procedure to occur such as a graceful speed braking for the machine as well as engaging mechanical stops that will be discussed later which thereafter follows the de-energizing of the machine as a whole.
+
+* In accordance with ISO 3691-4:2023, the autonomous forklift will enter a protective stop, a state in which is similar to a category 2 stop whereas the vehicle can is stopped  if:
+** Loss of Power
+A protective stop will occur once power is lost through the use of normally engaged mechanical brakes on springs that are disengaged through the use of electromagnetic actuators and are placed along the vehicle’s wheels and lift.
 
 
 ---
