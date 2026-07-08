@@ -1,1 +1,1 @@
-#  Midterm_MEXE410_Section_Group-1_2026
+# Midterm_MEXE410_Section_Group-1_2026
