@@ -6,7 +6,7 @@
 # 🔍 Product Description 🔎
 
 ## What it does:
-  The SAFR-series model 2000 is an unmanned, autonomous driving forklift robot that utilizes the fusion for multi-sensor capabilities for intelligent navigation and precise material handling. It is designed to completely automate the transportation of palletized payloads (for up to 2000 Kg). This robot has a sub-centimeter positioning accuracy of ±5mm and a maximum adjustable speed of 1.5m/s. It also has access to features beyond just simple transport, such as dynamic real-time mapping, flexible obstacle avoidance, to precisely recognize the pallet area and how to carry it efficiently.
+  The SAFR-series 2000 is an unmanned, autonomous driving forklift robot that utilizes the fusion for multi-sensor capabilities for intelligent navigation and precise material handling. It is designed to completely automate the transportation of palletized payloads (for up to 2000 Kg). This robot has a sub-centimeter positioning accuracy of ±5mm and a maximum adjustable speed of 1.5m/s. It also has access to features beyond just simple transport, such as dynamic real-time mapping, flexible obstacle avoidance, to precisely recognize the pallet area and how to carry it efficiently.
 
 ## Who uses it:
   The primary users are operations and facility managers across the Logistics, Automation, Manufacturing, and Retail industries. It is specifically deployed to facilities that require highly adaptable, constant ease of transportation of payloads within the facility and work safely alongside human workers without the need for isolated automated zones.
