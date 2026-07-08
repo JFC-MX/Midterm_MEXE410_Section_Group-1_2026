@@ -40,25 +40,21 @@
 # 🗺 Standards Mapping 🗺
 
 ## Mapped Standard 1: ISO 10218-1 and ISO 10218-1: Industrial Robot Safety Requirements and Robot Systems and Integration
-How we comply: The Smart Forklift complies with the said standards by incorporating LiDAR sensors and obstacle detection systems to continuously detect people, objects, and other potential hazards within its operating environment like its line-of-path, making collision risks during autonomous operation decreased. Furthermore, it is equipped with emergency stop and protective stop functions are installed which automatically halts the forklift whenever unsafe operating conditions or unexpected obstacles are detected, which ensures the safety of nearby personnel and equipment. The forklift is also integrated properly into warehouse operations through predefined navigation maps, intelligent fleet management, and designated travel routes allowing coordinated, reliable, and safe interaction with other autonomous robots, warehouse equipment, and human workers. 
+  How we comply: The Smart Forklift complies with the said standards by incorporating LiDAR sensors and obstacle detection systems to continuously detect people, objects, and other potential hazards within its operating environment like its line-of-path, making collision risks during autonomous operation decreased. Furthermore, it is equipped with emergency stop and protective stop functions are installed which automatically halts the forklift whenever unsafe operating conditions or unexpected obstacles are detected, which ensures the safety of nearby personnel and equipment. The forklift is also integrated properly into warehouse operations through predefined navigation maps, intelligent fleet management, and designated travel routes allowing coordinated, reliable, and safe interaction with other autonomous robots, warehouse equipment, and human workers. 
 
----
+
 
 ## Mapped Standard 2: ISO 45000 Family: Occupational Health and Safety
+  How we comply: SAFR-2000 complies with ISO 45000 family by minimizing the need for manual material handling as well as conventional forklift operation which reduces workers’ exposure to relative injuries, repetitive tasks, and vehicle-related accidents. With its collision avoidance, pedestrian or personnel detection, automatic speed control, and safe stopping (with fault notification), accidents are prevented in shared warehouse environments which protects both operators and nearby personnel. Additionally, a Human-Machine Interface enables authorized personnel to safely monitor the forklift’s operating status, perform diagnostics, modify operational parameters, and configure system settings, improving maintenance efficiency while supporting safe and reliable operation.  
 
-How we comply: SAFR-2000 complies with ISO 45000 family by minimizing the need for manual material handling as well as conventional forklift operation which reduces workers’ exposure to relative injuries, repetitive tasks, and vehicle-related accidents. With its collision avoidance, pedestrian or personnel detection, automatic speed control, and safe stopping (with fault notification), accidents are prevented in shared warehouse environments which protects both operators and nearby personnel. Additionally, a Human-Machine Interface enables authorized personnel to safely monitor the forklift’s operating status, perform diagnostics, modify operational parameters, and configure system settings, improving maintenance efficiency while supporting safe and reliable operation.  
-
----
 
 ## Mapped Standard 3: ISO 31000: Risk Management
-
-How we comply: During the design, deployment, and operation of the system, potential operational risks like collisions, navigation errors, dropped loads, and battery-related failures are identified and assessed. To minimize such risks, the forklift has obstacle avoidance, load stability monitoring, intelligent route replanning, and emergency stopping to reduce the probability and severity of operational hazards. In addition, its IoT connectivity and intelligent fleet management system allows real-time monitoring, remote diagnostics, predictive maintenance, and performance analysis, allowing risks to be continuously evaluated, managed, and mitigated throughout the forklift's operational life while supporting continuous system improvement. 
+  How we comply: During the design, deployment, and operation of the system, potential operational risks like collisions, navigation errors, dropped loads, and battery-related failures are identified and assessed. To minimize such risks, the forklift has obstacle avoidance, load stability monitoring, intelligent route replanning, and emergency stopping to reduce the probability and severity of operational hazards. In addition, its IoT connectivity and intelligent fleet management system allows real-time monitoring, remote diagnostics, predictive maintenance, and performance analysis, allowing risks to be continuously evaluated, managed, and mitigated throughout the forklift's operational life while supporting continuous system improvement. 
 
 
 
 ## Mapped Standard 4: ISO/IEC 27001: Information Security Management
-
-How we comply: The Smart Autonomous Forklift utilizes IoT connectivity and fleet management software to communicate operational data and coordinate warehouse activities. To protect these systems, secure communication protocols, authenticated user access, and controlled data management are implemented to help maintain the confidentiality, integrity, and availability of operational information while reducing the risk of unauthorized access or cyber threats.
+  How we comply: The Smart Autonomous Forklift utilizes IoT connectivity and fleet management software to communicate operational data and coordinate warehouse activities. To protect these systems, secure communication protocols, authenticated user access, and controlled data management are implemented to help maintain the confidentiality, integrity, and availability of operational information while reducing the risk of unauthorized access or cyber threats.
 
 ---
 
