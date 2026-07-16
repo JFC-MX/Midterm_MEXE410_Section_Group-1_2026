@@ -5,7 +5,7 @@ This report addresses the critical non-conformances identified during the system
 ---
 
 ## NCR Question-1:
-"If the robot is autonomous, why does losing communication immediately make it unsafe? Doesn't that suggest your autonomy depends on continuous external supervision rather than onboard intelligence?"
+NCR-Q-1) "If the robot is autonomous, why does losing communication immediately make it unsafe? Doesn't that suggest your autonomy depends on continuous external supervision rather than onboard intelligence?"
 
 <ins>Identified Non-Conformance:</ins>
 The system immediately enters an unsafe/protective stop state upon losing external communication, indicating a reliance on external supervision rather than true onboard autonomy.
