@@ -1,6 +1,6 @@
-## Overview
+## CAPA (Corrective and Preventive Action)
 
-This Corrective and Preventive Action (CAPA) report addresses the critical non-conformances identified during the system audit of the SAFR-2000 Smart Autonomous Forklift Robot. The engineering team has reviewed the identified flaws regarding system autonomy, sensor integrity, computational architecture, physical stability, and braking dynamics. The following sections detail the re-engineering strategies required to bring the system into full compliance with industrial safety standards.
+This report addresses the critical non-conformances identified during the system audit of the SAFR-2000 Smart Autonomous Forklift Robot. The engineering team has reviewed the identified flaws regarding system autonomy, sensor integrity, computational architecture, physical stability, and braking dynamics. The following sections detail the re-engineering strategies required to bring the system into full compliance with industrial safety standards.
 
 ---
 
