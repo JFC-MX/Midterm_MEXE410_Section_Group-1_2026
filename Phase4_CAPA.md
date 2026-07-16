@@ -49,9 +49,8 @@ The use of multiple LiDAR sensors lacks engineering justification regarding comp
 The initial design prioritized field-of-view redundancy without optimizing the data pipeline, leading to potential real-time processing bottlenecks.
 
 * <ins>**Corrective & Preventive Action:**</ins>
-    * Maintain the multi-sensor architecture, as a single 360° LiDAR is unviable due to the massive frontal blind spots created by the forklift mast and a 2,000 kg payload.
-    * Re-engineer the perception hardware to resolve synchronization and latency issues.
-    * Offload point-cloud filtering and sensor fusion to a dedicated, hardware-accelerated FPGA at the edge.
+    * Re-engineer and calibrate the perception hardware to resolve synchronization and latency issues.
+    * Offload point-cloud filtering and sensor fusion to a dedicated, controller (FPGA or PLC) at the edge.
     * Remove the computational burden from the main CPU to ensure real-time safety performance and obstacle detection occurs in microseconds without impacting battery endurance.
  
 ---
@@ -69,7 +68,6 @@ The mechanical chassis design leaned heavily on software-defined deceleration pr
 * <ins>**Corrective & Preventive Action:**</ins>
     * Physically alter the mechanical system model of the forklift chassis to drastically lower the center of gravity.
     * Integrate physical hard-stops and limit switches into the mast and tilt assemblies to physically restrict the load from reaching an unstable moment arm.
-    * Incorporate heavy-duty mechanical dampers into the suspension to remove lateral allowance and ensure rigidity during high-speed turns.
     * Guarantee through these mechanical constraints that the vehicle physically cannot exceed the tipping threshold, even if the software freezes while commanding maximum speed.
  
  ---
@@ -88,6 +86,4 @@ Braking specifications were estimated based on unladen chassis weights rather th
     * Execute a full redesign of the drive and braking system utilizing high-fidelity mathematical modeling of the electromechanical systems.
     * Strictly define the equivalent inertia and damping of the transmission under a full 2,000 kg load.
     * Upgrade the fail-safe, normally engaged spring brakes to match the required stopping torque derived from the torque-speed characteristics of the DC drive motors.
-    * Hardware-validate stopping distances to guarantee they fall within the protective field limits defined by ISO 3691-4, ensuring the robot will always halt before contacting a detected pedestrian.
-
  ---
